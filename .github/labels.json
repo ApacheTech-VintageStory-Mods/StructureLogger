@@ -1,0 +1,162 @@
+[
+  {
+    "name": "area:quality-of-life",
+    "color": "F23BE6",
+    "description": "This work item involves accessibility and quality of life."
+  },
+  {
+    "name": "area:chat-commands",
+    "color": "F23BE6",
+    "description": "This work item involves chat commands."
+  },
+  {
+    "name": "area:compatibility",
+    "color": "F23BE6",
+    "description": "This work item involves compatibility between different mods."
+  },
+  {
+    "name": "area:documentation",
+    "color": "F23BE6",
+    "description": "Improvements or additions to documentation."
+  },
+  {
+    "name": "area:translations",
+    "color": "F23BE6",
+    "description": "Improvements or additions to translations."
+  },
+  {
+    "name": "area:game-content",
+    "color": "F23BE6",
+    "description": "This work item involves blocks, items, or other aspects of game content."
+  },
+  {
+    "name": "area:game-mechanics",
+    "color": "F23BE6",
+    "description": "This work item involves altering the core mechanics of the game."
+  },
+  {
+    "name": "area:gantry",
+    "color": "F23BE6",
+    "description": "This work item involves the Gantry MDK."
+  },
+  {
+    "name": "area:harmony",
+    "color": "F23BE6",
+    "description": "This work item involves Harmony patches."
+  },
+  {
+    "name": "area:uiux",
+    "color": "F23BE6",
+    "description": "This work item involves user interaction via a GUI."
+  },
+  {
+    "name": "closed:done",
+    "color": "030303",
+    "description": "This work item has been completed."
+  },
+  {
+    "name": "closed:duplicate",
+    "color": "030303",
+    "description": "This work item is a duplicate of another work item."
+  },
+  {
+    "name": "closed:inactive",
+    "color": "030303",
+    "description": "This work item has been left dormant, with no feedback from the poster."
+  },
+  {
+    "name": "closed:not-actionable",
+    "color": "000000",
+    "description": "No actions can be taken regarding this work item."
+  },
+  {
+    "name": "needs:vanilla-fix",
+    "color": "0075CA",
+    "description": "This work item cannot be continued until a fix to the vanilla game is in place."
+  },
+  {
+    "name": "needs:user-feedback",
+    "color": "0075CA",
+    "description": "This work item has been passed back to the user to add more feedback."
+  },
+  {
+    "name": "needs:log-files",
+    "color": "0075CA",
+    "description": "This work item requires a zip file full of log files before any actions can be taken."
+  },
+  {
+    "name": "status:blocked",
+    "color": "FEF2C0",
+    "description": "Other work items need to be completed before work on this work item can continue."
+  },
+  {
+    "name": "status:pending-release",
+    "color": "FEF2C0",
+    "description": "Work on this work item is complete, and is awaiting release."
+  },
+  {
+    "name": "status:in-progress",
+    "color": "FEF2C0",
+    "description": "Work is currently being done on this work item."
+  },
+  {
+    "name": "status:needs-investigation",
+    "color": "FEF2C0",
+    "description": "This work item has been triaged, and requires further investigation."
+  },
+  {
+    "name": "status:triage",
+    "color": "FEF2C0",
+    "description": "This is a new work item, and needs some initial triage."
+  },
+  {
+    "name": "status:planning",
+    "color": "FEF2C0",
+    "description": "This feature is in the planning stage."
+  },
+  {
+    "name": "type:feature",
+    "color": "0E7A1B",
+    "description": "A new feature."
+  },
+  {
+    "name": "type:improvement",
+    "color": "0E7A1B",
+    "description": "An enhancement to an existing feature."
+  },
+  {
+    "name": "type:chore",
+    "color": "0E7A1B",
+    "description": "Maintenance or non-code work."
+  },
+  {
+    "name": "type:bug",
+    "color": "7A0E1B",
+    "description": "A bug."
+  },
+  {
+    "name": "priority:critical",
+    "color": "7A0E1B",
+    "description": "Critical priority! Fix and release immediately."
+  },
+  {
+    "name": "priority:low",
+    "color": "0E7A1B",
+    "description": "Low priority. Can be left to a later release."
+  },
+  {
+    "name": "os:windows",
+    "color": "0E1B7A",
+    "description": "This work item targets Windows users."
+  },
+  {
+    "name": "os:mac",
+    "color": "0E1B7A",
+    "description": "This work item targets Mac users."
+  },
+  {
+    "name": "os:linux",
+    "color": "0E1B7A",
+    "description": "This work item targets Linux users."
+  }
+]

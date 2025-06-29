@@ -1,0 +1,149 @@
+<Project>
+
+    <!-- Core Game Engine References -->
+    <ItemGroup Label="Game Engine Imports">
+        <Reference Include="VintagestoryAPI">
+            <HintPath>$(VINTAGE_STORY)\VintagestoryAPI.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="VintagestoryLib">
+            <HintPath>$(VINTAGE_STORY)\VintagestoryLib.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="VSEssentials">
+            <HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="VSSurvivalMod">
+            <HintPath>$(VINTAGE_STORY)\Mods\VSSurvivalMod.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="VSCreativeMod">
+            <HintPath>$(VINTAGE_STORY)\Mods\VSCreativeMod.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <!-- Auxiliary Game Library Imports -->
+    <ItemGroup Label="Game Library Imports">
+        <Reference Include="0Harmony">
+            <HintPath>$(VINTAGE_STORY)\Lib\0Harmony.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="cairo-sharp">
+            <HintPath>$(VINTAGE_STORY)\Lib\cairo-sharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="CommandLine">
+            <HintPath>$(VINTAGE_STORY)\Lib\CommandLine.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="JsonDiffPatch">
+            <HintPath>$(VINTAGE_STORY)\Lib\JsonDiffPatch.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Newtonsoft.Json">
+            <HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Open.Nat">
+            <HintPath>$(VINTAGE_STORY)\Lib\Open.Nat.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Audio.OpenAL">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Audio.OpenAL.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Compute">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Compute.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Core">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Core.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Graphics">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Graphics.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Input">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Input.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Mathematics">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Mathematics.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Windowing.Common">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Windowing.Common.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Windowing.Desktop">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Windowing.Desktop.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="OpenTK.Windowing.GraphicsLibraryFramework">
+            <HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Windowing.GraphicsLibraryFramework.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="protobuf-net">
+            <HintPath>$(VINTAGE_STORY)\Lib\protobuf-net.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="SharpAvi">
+            <HintPath>$(VINTAGE_STORY)\Lib\SharpAvi.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="SharpAvi.SkiaSharp">
+            <HintPath>$(VINTAGE_STORY)\Lib\SharpAvi.SkiaSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="SkiaSharp">
+            <HintPath>$(VINTAGE_STORY)\Lib\SkiaSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="System.Collections.Immutable">
+            <HintPath>$(VINTAGE_STORY)\Lib\System.Collections.Immutable.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="System.Text.Encodings.Web">
+            <HintPath>$(VINTAGE_STORY)\Lib\System.Text.Encodings.Web.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="System.Text.Json">
+            <HintPath>$(VINTAGE_STORY)\Lib\System.Text.Json.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Tavis.JsonPatch">
+            <HintPath>$(VINTAGE_STORY)\Lib\Tavis.JsonPatch.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="xplatforminterface">
+            <HintPath>$(VINTAGE_STORY)\Lib\xplatforminterface.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+	<ItemGroup Label="Internals Visibility">
+		<InternalsVisibleTo Include="Gantry" />
+		<InternalsVisibleTo Include="$(ProjectName).Tests.Unit" />
+		<InternalsVisibleTo Include="$(ProjectName).Tests.Integration" />
+		<InternalsVisibleTo Include="$(ProjectName).Tests.Benchmarks" />
+		<InternalsVisibleTo Include="$(ProjectName).Tests.Acceptance" />
+	</ItemGroup>
+
+	<ItemGroup Label="Project Capability">
+		<ProjectCapability Include="DynamicDependentFile" />
+		<ProjectCapability Include="DynamicFileNesting" />
+	</ItemGroup>
+	
+	<ItemGroup Label="Embedded Resources">
+		<EmbeddedResource Include="**\_EmbeddedResources\**\*.*" />
+	</ItemGroup>
+
+	<ItemGroup Label="SmartAssembly">
+		<None Include="$(ProjectName).saproj">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
