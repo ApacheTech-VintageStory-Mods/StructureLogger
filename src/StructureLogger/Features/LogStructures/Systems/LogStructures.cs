@@ -36,42 +36,54 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     {
         _settings = ModSettings.World.Feature<LogStructuresSetttings>();
 
-        sapi.ChatCommands
+        var command = sapi.ChatCommands
             .Create("slogger")
             .RequiresPrivilege(Privilege.controlserver)
             .WithDescription(T("Commands.Slogger.Description"))
-            .HandleWith(OnSloggerCommand)
+            .HandleWith(OnSloggerCommand);
+
+        command
             .BeginSubCommand("vanilla")
                 .WithAlias("v")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
                 .WithDescription(T("Commands.Slogger.IncludeVanillaResults.Description"))
                 .HandleWith(IncludeVanillaResults)
-                .EndSubCommand()
+            .EndSubCommand();
+
+        command
             .BeginSubCommand("surface-ruins")
                 .WithAlias("sr")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
                 .WithDescription(T("Commands.Slogger.IncludeSurfaceRuins.Description"))
                 .HandleWith(IncludeSurfaceRuins)
-                .EndSubCommand()
+            .EndSubCommand();
+
+
+        command
             .BeginSubCommand("surface-structures")
                 .WithAlias("ss")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
                 .WithDescription(T("Commands.Slogger.IncludeSurfaceStructures.Description"))
                 .HandleWith(IncludeSurfaceStructures)
-                .EndSubCommand()
+            .EndSubCommand();
+
+
+        command
             .BeginSubCommand("underwater")
                 .WithAlias("uw")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
                 .WithDescription(T("Commands.Slogger.IncludeUnderwaterStructures.Description"))
                 .HandleWith(IncludeUnderwaterStructures)
-                .EndSubCommand()
+            .EndSubCommand();
+
+
+        command
             .BeginSubCommand("underground")
                 .WithAlias("ug")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
                 .WithDescription(T("Commands.Slogger.IncludeUndergroundStructures.Description"))
                 .HandleWith(IncludeUndergroundStructures)
-                .EndSubCommand()
-            ;
+            .EndSubCommand();
     }
 
     /// <summary>
