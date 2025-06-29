@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Созданная структура на поверхности",
+    "Features.LogStructures.Commands.Slogger.Error":  "Настройки регистратора структуры не найдены.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Сгенерированное сооружение под землей",
+    "Features.LogStructures.Commands.Slogger.Description":  "Улучшенный логгер конструкций руин",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Созданная конструкция под водой",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Отфильтруйте ванильные структуры, которые могут быстро добавить миллионы строк в файл журнала.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Результаты фильтра Ваниль: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Созданные руины на поверхности"
+}

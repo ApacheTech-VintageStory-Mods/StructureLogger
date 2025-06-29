@@ -6,4 +6,8 @@
 	<ItemGroup>
 		<ProjectReference Include="..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
 	</ItemGroup>
+	
+	<ItemGroup>
+	  <Folder Include="_Includes\assets\" />
+	</ItemGroup>
 </Project>

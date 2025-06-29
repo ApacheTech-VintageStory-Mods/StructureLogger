@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Mynduð uppbygging á yfirborði",
+    "Features.LogStructures.Commands.Slogger.Error":  "Stillingar fyrir skipulagsskrártæki fundust ekki.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Myndað mannvirki neðanjarðar",
+    "Features.LogStructures.Commands.Slogger.Description":  "Betri rústir uppbygging skógarhöggsmaður",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Mynduð uppbygging neðansjávar",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Síaðu út vanillumannvirki sem geta fljótt bætt milljónum lína við annálaskrána.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Sía vanillu niðurstöður: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Myndaði eyðileggingu á yfirborðinu"
+}

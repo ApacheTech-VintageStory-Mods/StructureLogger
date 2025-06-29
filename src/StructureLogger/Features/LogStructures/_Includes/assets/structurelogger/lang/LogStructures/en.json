@@ -1,0 +1,11 @@
+{
+  "Features.LogStructures.Commands.Slogger.Description": "Better Ruins Structure Logger",
+  "Features.LogStructures.Commands.Slogger.Filter.Description": "Filter out vanilla structures that can quickly add millions of lines to the log file.",
+  "Features.LogStructures.Commands.Slogger.Error": "Structure Logger Settings not found.",
+  "Features.LogStructures.Commands.Slogger.Success": "Filter Vanilla Results: {0}",
+
+  "Features.LogStructures.Logs.SurfaceRuin": "Generated ruin on the surface",
+  "Features.LogStructures.Logs.SurfaceStructure": "Generated structure at the surface",
+  "Features.LogStructures.Logs.UnderwaterStructure": "Generated structure underwater",
+  "Features.LogStructures.Logs.UndergroundStructure": "Generated structure underground"
+}

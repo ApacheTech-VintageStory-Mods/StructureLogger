@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Structure générée à la surface",
+    "Features.LogStructures.Commands.Slogger.Error":  "Paramètres de l’enregistreur de structure introuvables.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Structure générée sous terre",
+    "Features.LogStructures.Commands.Slogger.Description":  "Meilleure construction des ruines Logger",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Structure générée sous l’eau",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Filtrez les structures classiques qui peuvent rapidement ajouter des millions de lignes au fichier journal.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filtrer les résultats vanille : {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Ruine générée à la surface"
+}

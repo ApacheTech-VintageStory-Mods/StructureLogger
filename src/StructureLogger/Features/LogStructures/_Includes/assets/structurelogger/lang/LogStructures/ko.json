@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "표면에서 생성된 구조",
+    "Features.LogStructures.Commands.Slogger.Error":  "구조 로거 설정을 찾을 수 없습니다.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "지하에서 생성된 구조물",
+    "Features.LogStructures.Commands.Slogger.Description":  "더 나은 유적 구조 로거",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "수중에서 생성된 구조물",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "로그 파일에 수백만 줄을 빠르게 추가할 수 있는 vanilla 구조를 필터링합니다.",
+    "Features.LogStructures.Commands.Slogger.Success":  "바닐라 결과 필터링: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "표면에 생성된 폐허"
+}

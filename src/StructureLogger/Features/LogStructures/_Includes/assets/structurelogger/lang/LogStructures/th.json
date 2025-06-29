@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "โครงสร้างที่สร้างขึ้นที่พื้นผิว",
+    "Features.LogStructures.Commands.Slogger.Error":  "ไม่พบการตั้งค่าตัวบันทึกโครงสร้าง",
+    "Features.LogStructures.Logs.UndergroundStructure":  "โครงสร้างที่สร้างขึ้นใต้ดิน",
+    "Features.LogStructures.Commands.Slogger.Description":  "ตัวบันทึกโครงสร้างซากปรักหักพังที่ดีกว่า",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "โครงสร้างที่สร้างขึ้นใต้น้ํา",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "กรองโครงสร้างวานิลลาที่สามารถเพิ่มบรรทัดหลายล้านบรรทัดลงในไฟล์บันทึกได้อย่างรวดเร็ว",
+    "Features.LogStructures.Commands.Slogger.Success":  "กรองผลลัพธ์วานิลลา: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "สร้างซากปรักหักพังบนพื้นผิว"
+}

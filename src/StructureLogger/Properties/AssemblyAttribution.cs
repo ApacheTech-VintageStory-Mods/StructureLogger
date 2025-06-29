@@ -1,13 +1,11 @@
-// ReSharper disable StringLiteralTypo
-
 [assembly: ModDependency("game", "1.20.12")]
 
 [assembly: ModInfo(
-    "StructureLogger",
+    "Better Ruins Structure Logger",
     "structurelogger",
-    Description = "DESCRIPTION",
-    Side = "Universal",
-    Version = "0.1.0",
+    Description = "Logs the generation of structures as they are placed within the world.",
+    Side = "Server",
+    Version = "1.0.0",
     NetworkVersion = "1.0.0",
     Website = "https://apachetech.co.uk",
     Contributors = ["Apache"],

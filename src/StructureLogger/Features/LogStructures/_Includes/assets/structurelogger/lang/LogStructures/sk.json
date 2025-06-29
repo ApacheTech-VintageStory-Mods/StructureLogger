@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Vytvorená štruktúra na povrchu",
+    "Features.LogStructures.Commands.Slogger.Error":  "Nastavenia zapisovača štruktúry sa nenašli.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Vytvorená štruktúra pod zemou",
+    "Features.LogStructures.Commands.Slogger.Description":  "Záznamník štruktúry lepších ruín",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Vytvorená štruktúra pod vodou",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Odfiltrujte vanilkové štruktúry, ktoré dokážu rýchlo pridať milióny riadkov do súboru denníka.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filtrovať vanilkové výsledky: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Vytvorená ruina na povrchu"
+}

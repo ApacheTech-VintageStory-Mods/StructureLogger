@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Створювана структура на поверхні",
+    "Features.LogStructures.Commands.Slogger.Error":  "Налаштування журналу структур не знайдено.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Генерована структура під землею",
+    "Features.LogStructures.Commands.Slogger.Description":  "Кращий реєстратор руїн структури",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Генерована структура під водою",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Відфільтруйте ванільні структури, які можуть швидко додати мільйони рядків до файлу журналу.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Фільтр ваніль Результати: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Утворилися руїни на поверхні"
+}

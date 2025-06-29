@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "サーフェスで生成された構造",
+    "Features.LogStructures.Commands.Slogger.Error":  "ストラクチャーロガーの設定が見つかりません。",
+    "Features.LogStructures.Logs.UndergroundStructure":  "地下で生成された構造物",
+    "Features.LogStructures.Commands.Slogger.Description":  "より良い遺跡構造ロガー",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "水中で生成された構造物",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "ログファイルに数百万行をすばやく追加する可能性のあるバニラ構造を除外します。",
+    "Features.LogStructures.Commands.Slogger.Success":  "バニラの結果をフィルタリングする:{0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "表面に生成された廃墟"
+}

@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Yüzeyde oluşturulan yapı",
+    "Features.LogStructures.Commands.Slogger.Error":  "Yapı Kaydedici Ayarları bulunamadı.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Yeraltında oluşturulan yapı",
+    "Features.LogStructures.Commands.Slogger.Description":  "Daha İyi Harabe Yapısı Kaydedici",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Su altında oluşturulan yapı",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Günlük dosyasına hızlı bir şekilde milyonlarca satır ekleyebilen vanilya yapılarını filtreleyin.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Vanilya Sonuçlarını Filtreleyin: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Yüzeyde oluşturulan harabe"
+}

@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Vytvořená struktura na povrchu",
+    "Features.LogStructures.Commands.Slogger.Error":  "Nastavení záznamníku struktury nebylo nalezeno.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Vygenerovaná konstrukce v podzemí",
+    "Features.LogStructures.Commands.Slogger.Description":  "Lepší záznamník struktury Ruins",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Vytvořená struktura pod vodou",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Odfiltrujte vanilkové struktury, které mohou rychle přidat miliony řádků do souboru protokolu.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filtrovat vanilkové výsledky: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Vytvořená ruina na povrchu"
+}

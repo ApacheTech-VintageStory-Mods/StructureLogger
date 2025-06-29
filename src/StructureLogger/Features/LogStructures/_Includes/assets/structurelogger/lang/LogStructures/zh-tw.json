@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "在表面生成的結構",
+    "Features.LogStructures.Commands.Slogger.Error":  "找不到 Structure Logger 設置。",
+    "Features.LogStructures.Logs.UndergroundStructure":  "地下生成結構",
+    "Features.LogStructures.Commands.Slogger.Description":  "更好的廢墟結構記錄器",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "水下生成的結構",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "過濾掉可以快速向日誌檔添加數百萬行的 vanilla 結構。",
+    "Features.LogStructures.Commands.Slogger.Success":  "篩選 Vanilla 結果： {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "在地表生成的廢墟"
+}

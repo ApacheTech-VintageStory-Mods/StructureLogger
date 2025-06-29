@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Generisana struktura na površini",
+    "Features.LogStructures.Commands.Slogger.Error":  "Struktura Logger Podešavanja nije pronađena.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Generisana struktura pod zemljom",
+    "Features.LogStructures.Commands.Slogger.Description":  "Bolje ruševine struktura drvosječa",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Generisana struktura pod vodom",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Filtrirajte vanile strukture koje mogu brzo dodati milione linija u datoteku dnevnika.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filter Vanilla Rezultati: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Generisana ruševina na površini"
+}

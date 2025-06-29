@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Generert struktur på overflaten",
+    "Features.LogStructures.Commands.Slogger.Error":  "Strukturloggerinnstillinger ikke funnet.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Generert struktur under jorden",
+    "Features.LogStructures.Commands.Slogger.Description":  "Bedre ruiner strukturlogger",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Generert struktur under vann",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Filtrer ut vaniljestrukturer som raskt kan legge til millioner av linjer i loggfilen.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filtrer vaniljeresultater: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Generert ruin på overflaten"
+}

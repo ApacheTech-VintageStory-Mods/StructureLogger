@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Generierte Struktur an der Oberfläche",
+    "Features.LogStructures.Commands.Slogger.Error":  "Structure Logger-Einstellungen nicht gefunden.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Generierte Struktur unter Tage",
+    "Features.LogStructures.Commands.Slogger.Description":  "Better Ruins Structure Logger",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Generierte Struktur unter Wasser",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Filtern Sie Vanilla-Strukturen heraus, die der Protokolldatei schnell Millionen von Zeilen hinzufügen können.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filter Vanilla Ergebnisse: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Erzeugte Ruine auf der Oberfläche"
+}

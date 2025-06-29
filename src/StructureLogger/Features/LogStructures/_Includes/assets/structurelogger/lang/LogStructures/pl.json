@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Wygenerowana struktura na powierzchni",
+    "Features.LogStructures.Commands.Slogger.Error":  "Nie znaleziono ustawień rejestratora struktury.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Wygenerowana struktura pod ziemią",
+    "Features.LogStructures.Commands.Slogger.Description":  "Lepszy rejestrator struktur ruin",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Wygenerowana struktura pod wodą",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Odfiltruj struktury waniliowe, które mogą szybko dodać miliony wierszy do pliku dziennika.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filtruj wyniki wanilii: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Wygenerowano ruiny na powierzchni"
+}

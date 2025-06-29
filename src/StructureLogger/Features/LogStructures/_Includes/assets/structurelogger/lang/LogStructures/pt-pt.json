@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Estrutura gerada à superfície",
+    "Features.LogStructures.Commands.Slogger.Error":  "Configurações do registrador de estrutura não encontradas.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Estrutura gerada no subsolo",
+    "Features.LogStructures.Commands.Slogger.Description":  "Melhor Ruínas Estrutura Logger",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Estrutura gerada debaixo de água",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Filtre estruturas de baunilha que podem adicionar rapidamente milhões de linhas ao arquivo de log.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filtrar Resultados Baunilha: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Ruína gerada na superfície"
+}

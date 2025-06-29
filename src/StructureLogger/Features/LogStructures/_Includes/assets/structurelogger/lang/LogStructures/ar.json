@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "هيكل متولد على السطح",
+    "Features.LogStructures.Commands.Slogger.Error":  "لم يتم العثور على إعدادات مسجل البنية.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "هيكل ولد تحت الأرض",
+    "Features.LogStructures.Commands.Slogger.Description":  "أفضل أطلال هيكل مسجل",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "هيكل متولد تحت الماء",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "قم بتصفية هياكل الفانيليا التي يمكنها إضافة ملايين الأسطر بسرعة إلى ملف السجل.",
+    "Features.LogStructures.Commands.Slogger.Success":  "تصفية نتائج الفانيليا: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "ولدت الخراب على السطح"
+}

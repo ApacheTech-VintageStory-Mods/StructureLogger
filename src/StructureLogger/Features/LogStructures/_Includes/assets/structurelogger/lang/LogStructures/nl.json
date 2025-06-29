@@ -1,0 +1,10 @@
+﻿{
+    "Features.LogStructures.Logs.SurfaceStructure":  "Gegenereerde structuur aan het oppervlak",
+    "Features.LogStructures.Commands.Slogger.Error":  "Structuur Logger Instellingen niet gevonden.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Gegenereerde structuur ondergronds",
+    "Features.LogStructures.Commands.Slogger.Description":  "Betere ruïnes structuur logger",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Gegenereerde structuur onder water",
+    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Filter vanillestructuren weg die snel miljoenen regels aan het logboekbestand kunnen toevoegen.",
+    "Features.LogStructures.Commands.Slogger.Success":  "Filter Vanilla Resultaten: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Gegenereerde ruïne op het oppervlak"
+}
