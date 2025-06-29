@@ -119,6 +119,6 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         if (Settings?.IncludeVanillaResults != true && !asset.Origin.OriginPath.Contains("BetterRuins")) return;
 
         var message = $"[BetterRuins] {messagePrefix} - File: {assetLocation.ToShortString()} - Location: {location}";
-        api.Logger.VerboseDebug(message);
+        api.Logger.Audit(message);
     }
 }
