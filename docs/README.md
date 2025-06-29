@@ -1,6 +1,10 @@
 # StructureLogger
 
-TODO
+**StructureLogger** is a server-side utility mod for *Vintage Story* that logs the generation of world structures originating from the BetterRuins mod. It patches the vanilla `WorldGenStructure` class to emit detailed log entries for surface, underground, and underwater schematics placed during world generation.
+
+To prevent log spam and improve clarity, vanilla structure logging is disabled by default and can be toggled at runtime via the `/slogger filter` command.
+
+All log entries are prefixed for easy filtering and include schematic asset references and exact placement coordinates.
 
 ## Support the Mod Author
 
