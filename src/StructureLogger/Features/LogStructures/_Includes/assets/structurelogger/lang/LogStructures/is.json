@@ -1,10 +1,18 @@
 ﻿{
-    "Features.LogStructures.Logs.SurfaceStructure":  "Mynduð uppbygging á yfirborði",
-    "Features.LogStructures.Commands.Slogger.Error":  "Stillingar fyrir skipulagsskrártæki fundust ekki.",
-    "Features.LogStructures.Logs.UndergroundStructure":  "Myndað mannvirki neðanjarðar",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description":  "Láttu rústir sem myndast á yfirborðinu fylgja með.",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description":  "Taktu með mannvirki sem myndast neðansjávar.",
     "Features.LogStructures.Commands.Slogger.Description":  "Betri rústir uppbygging skógarhöggsmaður",
-    "Features.LogStructures.Logs.UnderwaterStructure":  "Mynduð uppbygging neðansjávar",
-    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Síaðu út vanillumannvirki sem geta fljótt bætt milljónum lína við annálaskrána.",
-    "Features.LogStructures.Commands.Slogger.Success":  "Sía vanillu niðurstöður: {0}",
-    "Features.LogStructures.Logs.SurfaceRuin":  "Myndaði eyðileggingu á yfirborðinu"
+    "Features.LogStructures.Logs.SurfaceStructure":  "Mynduð uppbygging á yfirborði",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description":  "Láttu vanillumannvirki fylgja með sem geta fljótt bætt milljónum lína við annálaskrána.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description":  "Taktu með mannvirki sem myndast á yfirborðinu.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value":  "Hafa yfirborðsrústir: {0}",
+    "Features.LogStructures.Commands.Slogger.Error":  "Stillingar fyrir skipulagsskrártæki fundust ekki.",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description":  "Fela í sér mannvirki sem myndast neðanjarðar.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Myndað mannvirki neðanjarðar",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value":  "Láttu neðansjávarmannvirki fylgja með: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value":  "Láttu yfirborðsbyggingar fylgja með: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Myndaði eyðileggingu á yfirborðinu",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value":  "Láttu vanillu niðurstöður fylgja með: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value":  "Fela neðanjarðarmannvirki: {0}",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Mynduð uppbygging neðansjávar"
 }

@@ -1,10 +1,18 @@
 ﻿{
-    "Features.LogStructures.Logs.SurfaceStructure":  "在表面生成的结构",
-    "Features.LogStructures.Commands.Slogger.Error":  "找不到 Structure Logger 设置。",
-    "Features.LogStructures.Logs.UndergroundStructure":  "地下生成结构",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description":  "包括地表生成的废墟。",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description":  "包括在水下生成的结构。",
     "Features.LogStructures.Commands.Slogger.Description":  "更好的废墟结构记录器",
-    "Features.LogStructures.Logs.UnderwaterStructure":  "水下生成的结构",
-    "Features.LogStructures.Commands.Slogger.Filter.Description":  "过滤掉可以快速向日志文件添加数百万行的 vanilla 结构。",
-    "Features.LogStructures.Commands.Slogger.Success":  "筛选 Vanilla 结果： {0}",
-    "Features.LogStructures.Logs.SurfaceRuin":  "在地表生成的废墟"
+    "Features.LogStructures.Logs.SurfaceStructure":  "在表面生成的结构",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description":  "包括可以快速向日志文件添加数百万行的原版结构。",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description":  "包括在曲面上生成的结构。",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value":  "包括地表废墟：{0}",
+    "Features.LogStructures.Commands.Slogger.Error":  "找不到 Structure Logger 设置。",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description":  "包括地下生成的结构。",
+    "Features.LogStructures.Logs.UndergroundStructure":  "地下生成结构",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value":  "包括水下结构：{0}",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value":  "包括表面结构：{0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "在地表生成的废墟",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value":  "包括 Vanilla 结果：{0}",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value":  "包括地下结构：{0}",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "水下生成的结构"
 }

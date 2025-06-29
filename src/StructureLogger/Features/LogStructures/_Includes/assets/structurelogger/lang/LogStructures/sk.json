@@ -1,10 +1,18 @@
 ﻿{
-    "Features.LogStructures.Logs.SurfaceStructure":  "Vytvorená štruktúra na povrchu",
-    "Features.LogStructures.Commands.Slogger.Error":  "Nastavenia zapisovača štruktúry sa nenašli.",
-    "Features.LogStructures.Logs.UndergroundStructure":  "Vytvorená štruktúra pod zemou",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description":  "Zahrňte ruiny vytvorené na povrchu.",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description":  "Zahrňte štruktúry vytvorené pod vodou.",
     "Features.LogStructures.Commands.Slogger.Description":  "Záznamník štruktúry lepších ruín",
-    "Features.LogStructures.Logs.UnderwaterStructure":  "Vytvorená štruktúra pod vodou",
-    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Odfiltrujte vanilkové štruktúry, ktoré dokážu rýchlo pridať milióny riadkov do súboru denníka.",
-    "Features.LogStructures.Commands.Slogger.Success":  "Filtrovať vanilkové výsledky: {0}",
-    "Features.LogStructures.Logs.SurfaceRuin":  "Vytvorená ruina na povrchu"
+    "Features.LogStructures.Logs.SurfaceStructure":  "Vytvorená štruktúra na povrchu",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description":  "Zahrňte vanilkové štruktúry, ktoré dokážu rýchlo pridať milióny riadkov do súboru denníka.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description":  "Zahrňte štruktúry vytvorené na povrchu.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value":  "Zahrňte povrchové ruiny: {0}",
+    "Features.LogStructures.Commands.Slogger.Error":  "Nastavenia zapisovača štruktúry sa nenašli.",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description":  "Zahrňte štruktúry vytvorené pod zemou.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Vytvorená štruktúra pod zemou",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value":  "Zahrňte podvodné štruktúry: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value":  "Zahrňte povrchové štruktúry: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Vytvorená ruina na povrchu",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value":  "Zahrňte vanilkové výsledky: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value":  "Zahrňte podzemné stavby: {0}",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Vytvorená štruktúra pod vodou"
 }

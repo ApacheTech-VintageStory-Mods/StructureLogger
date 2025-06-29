@@ -1,10 +1,18 @@
 ﻿{
-    "Features.LogStructures.Logs.SurfaceStructure":  "هيكل متولد على السطح",
-    "Features.LogStructures.Commands.Slogger.Error":  "لم يتم العثور على إعدادات مسجل البنية.",
-    "Features.LogStructures.Logs.UndergroundStructure":  "هيكل ولد تحت الأرض",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description":  "قم بتضمين الأطلال المتولدة على السطح.",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description":  "قم بتضمين الهياكل المتولدة تحت الماء.",
     "Features.LogStructures.Commands.Slogger.Description":  "أفضل أطلال هيكل مسجل",
-    "Features.LogStructures.Logs.UnderwaterStructure":  "هيكل متولد تحت الماء",
-    "Features.LogStructures.Commands.Slogger.Filter.Description":  "قم بتصفية هياكل الفانيليا التي يمكنها إضافة ملايين الأسطر بسرعة إلى ملف السجل.",
-    "Features.LogStructures.Commands.Slogger.Success":  "تصفية نتائج الفانيليا: {0}",
-    "Features.LogStructures.Logs.SurfaceRuin":  "ولدت الخراب على السطح"
+    "Features.LogStructures.Logs.SurfaceStructure":  "هيكل متولد على السطح",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description":  "قم بتضمين هياكل الفانيليا التي يمكنها إضافة ملايين الأسطر بسرعة إلى ملف السجل.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description":  "قم بتضمين الهياكل المتولدة على السطح.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value":  "تشمل أطلال السطح: {0}",
+    "Features.LogStructures.Commands.Slogger.Error":  "لم يتم العثور على إعدادات مسجل البنية.",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description":  "قم بتضمين الهياكل التي تم إنشاؤها تحت الأرض.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "هيكل ولد تحت الأرض",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value":  "تشمل الهياكل تحت الماء: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value":  "تشمل الهياكل السطحية: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "ولدت الخراب على السطح",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value":  "قم بتضمين نتائج الفانيليا: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value":  "تشمل الهياكل تحت الأرض: {0}",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "هيكل متولد تحت الماء"
 }

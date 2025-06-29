@@ -26,6 +26,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         BlockSchematicStructure ___LastPlacedSchematic, Cuboidi ___LastPlacedSchematicLocation)
     {
         if (!__result) return;
+        if (Settings?.IncludeSurfaceRuins != true) return;
 
         Log(
             messagePrefix: T("Logs.SurfaceRuin"),
@@ -47,6 +48,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         BlockSchematicStructure ___LastPlacedSchematic, Cuboidi ___LastPlacedSchematicLocation)
     {
         if (!__result) return;
+        if (Settings?.IncludeSurfaceStructures != true) return;
 
         Log(
             messagePrefix: T("Logs.SurfaceStructure"),
@@ -68,6 +70,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         BlockSchematicStructure ___LastPlacedSchematic, Cuboidi ___LastPlacedSchematicLocation)
     {
         if (!__result) return;
+        if (Settings?.IncludeUnderwaterStructures != true) return;
 
         Log(
             messagePrefix: T("Logs.UnderwaterStructure"),
@@ -89,6 +92,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         BlockSchematicStructure ___LastPlacedSchematic, Cuboidi ___LastPlacedSchematicLocation)
     {
         if (!__result) return;
+        if (Settings?.IncludeUndergroundStructures != true) return;
 
         Log(
             messagePrefix: T("Logs.UndergroundStructure"),
@@ -112,7 +116,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         var (assetLocation, asset) = api.Assets.AllAssets.FirstOrDefault(p => p.Key.GetName() == fileName);
         if (assetLocation is null) return;
 
-        if (Settings?.FilterVanillaResults == true && !asset.Origin.OriginPath.Contains("BetterRuins")) return;
+        if (Settings?.IncludeVanillaResults != true && !asset.Origin.OriginPath.Contains("BetterRuins")) return;
 
         var message = $"[BetterRuins] {messagePrefix} - File: {assetLocation.ToShortString()} - Location: {location}";
         api.Logger.VerboseDebug(message);

@@ -1,8 +1,16 @@
 {
   "Features.LogStructures.Commands.Slogger.Description": "Better Ruins Structure Logger",
-  "Features.LogStructures.Commands.Slogger.Filter.Description": "Filter out vanilla structures that can quickly add millions of lines to the log file.",
   "Features.LogStructures.Commands.Slogger.Error": "Structure Logger Settings not found.",
-  "Features.LogStructures.Commands.Slogger.Success": "Filter Vanilla Results: {0}",
+  "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description": "Include vanilla structures that can quickly add millions of lines to the log file.",
+  "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value": "Include Vanilla Results: {0}",
+  "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description": "Include ruins generated on the surface.",
+  "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value": "Include Surface Ruins: {0}",
+  "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description": "Include structures generated on the surface.",
+  "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value": "Include Surface Structures: {0}",
+  "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description": "Include structures generated underwater.",
+  "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value": "Include Underwater Structures: {0}",
+  "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description": "Include structures generated underground.",
+  "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value": "Include Underground Structures: {0}",
 
   "Features.LogStructures.Logs.SurfaceRuin": "Generated ruin on the surface",
   "Features.LogStructures.Logs.SurfaceStructure": "Generated structure at the surface",

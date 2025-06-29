@@ -1,10 +1,18 @@
 ﻿{
-    "Features.LogStructures.Logs.SurfaceStructure":  "Generisana struktura na površini",
-    "Features.LogStructures.Commands.Slogger.Error":  "Struktura Logger Podešavanja nije pronađena.",
-    "Features.LogStructures.Logs.UndergroundStructure":  "Generisana struktura pod zemljom",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description":  "Uključite ruševine nastale na površini.",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description":  "Uključite strukture generisane pod vodom.",
     "Features.LogStructures.Commands.Slogger.Description":  "Bolje ruševine struktura drvosječa",
-    "Features.LogStructures.Logs.UnderwaterStructure":  "Generisana struktura pod vodom",
-    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Filtrirajte vanile strukture koje mogu brzo dodati milione linija u datoteku dnevnika.",
-    "Features.LogStructures.Commands.Slogger.Success":  "Filter Vanilla Rezultati: {0}",
-    "Features.LogStructures.Logs.SurfaceRuin":  "Generisana ruševina na površini"
+    "Features.LogStructures.Logs.SurfaceStructure":  "Generisana struktura na površini",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description":  "Uključite vanilla strukture koje mogu brzo dodati milione linija u log fajl.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description":  "Uključite strukture generisane na površini.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value":  "Uključite površinske ruševine: {0}",
+    "Features.LogStructures.Commands.Slogger.Error":  "Struktura Logger Podešavanja nije pronađena.",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description":  "Uključite strukture generisane pod zemljom.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Generisana struktura pod zemljom",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value":  "Uključite podvodne strukture: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value":  "Uključuju površinske strukture: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Generisana ruševina na površini",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value":  "Uključite rezultate vanile: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value":  "Uključite podzemne strukture: {0}",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Generisana struktura pod vodom"
 }

@@ -1,10 +1,18 @@
 ﻿{
-    "Features.LogStructures.Logs.SurfaceStructure":  "Yüzeyde oluşturulan yapı",
-    "Features.LogStructures.Commands.Slogger.Error":  "Yapı Kaydedici Ayarları bulunamadı.",
-    "Features.LogStructures.Logs.UndergroundStructure":  "Yeraltında oluşturulan yapı",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description":  "Yüzeyde oluşan kalıntıları dahil edin.",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description":  "Su altında üretilen yapıları dahil edin.",
     "Features.LogStructures.Commands.Slogger.Description":  "Daha İyi Harabe Yapısı Kaydedici",
-    "Features.LogStructures.Logs.UnderwaterStructure":  "Su altında oluşturulan yapı",
-    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Günlük dosyasına hızlı bir şekilde milyonlarca satır ekleyebilen vanilya yapılarını filtreleyin.",
-    "Features.LogStructures.Commands.Slogger.Success":  "Vanilya Sonuçlarını Filtreleyin: {0}",
-    "Features.LogStructures.Logs.SurfaceRuin":  "Yüzeyde oluşturulan harabe"
+    "Features.LogStructures.Logs.SurfaceStructure":  "Yüzeyde oluşturulan yapı",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description":  "Günlük dosyasına hızlı bir şekilde milyonlarca satır ekleyebilen vanilya yapılarını dahil edin.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description":  "Yüzeyde oluşturulan yapıları dahil edin.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value":  "Yüzey Kalıntılarını Dahil Et: {0}",
+    "Features.LogStructures.Commands.Slogger.Error":  "Yapı Kaydedici Ayarları bulunamadı.",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description":  "Yeraltında oluşturulan yapıları dahil edin.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Yeraltında oluşturulan yapı",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value":  "Sualtı Yapılarını Dahil Et: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value":  "Yüzey Yapılarını Dahil Et: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Yüzeyde oluşturulan harabe",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value":  "Vanilya Sonuçlarını Dahil Et: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value":  "Yeraltı Yapılarını Dahil Edin: {0}",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Su altında oluşturulan yapı"
 }

@@ -1,10 +1,18 @@
 ﻿{
-    "Features.LogStructures.Logs.SurfaceStructure":  "在表面生成的結構",
-    "Features.LogStructures.Commands.Slogger.Error":  "找不到 Structure Logger 設置。",
-    "Features.LogStructures.Logs.UndergroundStructure":  "地下生成結構",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description":  "包括地表生成的廢墟。",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description":  "包括在水下生成的結構。",
     "Features.LogStructures.Commands.Slogger.Description":  "更好的廢墟結構記錄器",
-    "Features.LogStructures.Logs.UnderwaterStructure":  "水下生成的結構",
-    "Features.LogStructures.Commands.Slogger.Filter.Description":  "過濾掉可以快速向日誌檔添加數百萬行的 vanilla 結構。",
-    "Features.LogStructures.Commands.Slogger.Success":  "篩選 Vanilla 結果： {0}",
-    "Features.LogStructures.Logs.SurfaceRuin":  "在地表生成的廢墟"
+    "Features.LogStructures.Logs.SurfaceStructure":  "在表面生成的結構",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description":  "包括可以快速向日誌檔添加數百萬行的原版結構。",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description":  "包括在曲面上生成的結構。",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value":  "包括地表廢墟：{0}",
+    "Features.LogStructures.Commands.Slogger.Error":  "找不到 Structure Logger 設置。",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description":  "包括地下生成的結構。",
+    "Features.LogStructures.Logs.UndergroundStructure":  "地下生成結構",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value":  "包括水下結構：{0}",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value":  "包括表面結構：{0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "在地表生成的廢墟",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value":  "包括 Vanilla 結果：{0}",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value":  "包括地下結構：{0}",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "水下生成的結構"
 }

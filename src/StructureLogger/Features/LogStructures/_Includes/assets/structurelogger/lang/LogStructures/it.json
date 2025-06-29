@@ -1,10 +1,18 @@
 ﻿{
-    "Features.LogStructures.Logs.SurfaceStructure":  "Struttura generata in superficie",
-    "Features.LogStructures.Commands.Slogger.Error":  "Impostazioni del logger struttura non trovate.",
-    "Features.LogStructures.Logs.UndergroundStructure":  "Struttura generata in sotterraneo",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Description":  "Includi le rovine generate sulla superficie.",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Description":  "Includi strutture generate sott\u0027acqua.",
     "Features.LogStructures.Commands.Slogger.Description":  "Migliori rovine struttura logger",
-    "Features.LogStructures.Logs.UnderwaterStructure":  "Struttura generata sott\u0027acqua",
-    "Features.LogStructures.Commands.Slogger.Filter.Description":  "Filtra le strutture vanilla che possono aggiungere rapidamente milioni di righe al file di registro.",
-    "Features.LogStructures.Commands.Slogger.Success":  "Filtra Vaniglia Risultati: {0}",
-    "Features.LogStructures.Logs.SurfaceRuin":  "Rovina generata sulla superficie"
+    "Features.LogStructures.Logs.SurfaceStructure":  "Struttura generata in superficie",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Description":  "Includi strutture vanilla che possono aggiungere rapidamente milioni di righe al file di registro.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Description":  "Includere le strutture generate sulla superficie.",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceRuins.Value":  "Includi Rovine di superficie: {0}",
+    "Features.LogStructures.Commands.Slogger.Error":  "Impostazioni del logger struttura non trovate.",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Description":  "Includi strutture generate nel sottosuolo.",
+    "Features.LogStructures.Logs.UndergroundStructure":  "Struttura generata in sotterraneo",
+    "Features.LogStructures.Commands.Slogger.IncludeUnderwaterStructures.Value":  "Include strutture subacquee: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeSurfaceStructures.Value":  "Includi strutture di superficie: {0}",
+    "Features.LogStructures.Logs.SurfaceRuin":  "Rovina generata sulla superficie",
+    "Features.LogStructures.Commands.Slogger.IncludeVanillaResults.Value":  "Includi vaniglia Risultati: {0}",
+    "Features.LogStructures.Commands.Slogger.IncludeUndergroundStructures.Value":  "Comprende strutture sotterranee: {0}",
+    "Features.LogStructures.Logs.UnderwaterStructure":  "Struttura generata sott\u0027acqua"
 }
