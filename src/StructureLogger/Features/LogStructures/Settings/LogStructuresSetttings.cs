@@ -6,9 +6,9 @@ namespace ApacheTech.VintageMods.StructureLogger.Features.LogStructures.Settings
 public class LogStructuresSetttings : FeatureSettings<LogStructuresSetttings>
 {   
     /// <summary>
-    ///     When enabled, include vanilla structures in the logging output. This can log millions of lines to file.
+    ///     When enabled, include vanilla structures in the logging output.
     /// </summary>
-    public bool IncludeVanillaResults { get; set; } = false;
+    public bool IncludeVanillaResults { get; set; } = true;
 
     /// <summary>
     ///     When enabled, logs surface ruins placed by the structure generator.

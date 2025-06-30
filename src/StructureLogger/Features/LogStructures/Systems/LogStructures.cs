@@ -181,7 +181,7 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
         {
             "Description" => "Better Ruins Structure Logger",
             "Error" => "Structure Logger Settings not found.",
-            "IncludeVanillaResults.Description" => "Include vanilla structures that can quickly add millions of lines to the log file.",
+            "IncludeVanillaResults.Description" => "Include vanilla structures that are generated.",
             "IncludeVanillaResults.Value" => $"Include Vanilla Results: {args[0]}",
             "IncludeSurfaceRuins.Description" => "Include ruins generated on the surface.",
             "IncludeSurfaceRuins.Value" => $"Include Surface Ruins: {args[0]}",
