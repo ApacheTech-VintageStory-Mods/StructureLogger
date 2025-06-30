@@ -4,7 +4,6 @@ using Gantry.Services.FileSystem.Configuration;
 using Gantry.Services.FileSystem.Hosting;
 using System.Text;
 using Vintagestory.API.Server;
-using Vintagestory.API.Util;
 
 namespace ApacheTech.VintageMods.StructureLogger.Features.LogStructures.Systems;
 
@@ -34,19 +33,19 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     /// <param name="sapi">The core server API.</param>
     protected override void StartPreServerSide(ICoreServerAPI sapi)
     {
-        _settings = ModSettings.World.Feature<LogStructuresSetttings>();
+        _settings = ModSettings.Global.Feature<LogStructuresSetttings>();
 
         var command = sapi.ChatCommands
             .Create("slogger")
             .RequiresPrivilege(Privilege.controlserver)
-            .WithDescription(T("Commands.Slogger.Description"))
+            .WithDescription(T("Description"))
             .HandleWith(OnSloggerCommand);
 
         command
             .BeginSubCommand("vanilla")
                 .WithAlias("v")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
-                .WithDescription(T("Commands.Slogger.IncludeVanillaResults.Description"))
+                .WithDescription(T("IncludeVanillaResults.Description"))
                 .HandleWith(IncludeVanillaResults)
             .EndSubCommand();
 
@@ -54,7 +53,7 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
             .BeginSubCommand("surface-ruins")
                 .WithAlias("sr")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
-                .WithDescription(T("Commands.Slogger.IncludeSurfaceRuins.Description"))
+                .WithDescription(T("IncludeSurfaceRuins.Description"))
                 .HandleWith(IncludeSurfaceRuins)
             .EndSubCommand();
 
@@ -63,7 +62,7 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
             .BeginSubCommand("surface-structures")
                 .WithAlias("ss")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
-                .WithDescription(T("Commands.Slogger.IncludeSurfaceStructures.Description"))
+                .WithDescription(T("IncludeSurfaceStructures.Description"))
                 .HandleWith(IncludeSurfaceStructures)
             .EndSubCommand();
 
@@ -72,7 +71,7 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
             .BeginSubCommand("underwater")
                 .WithAlias("uw")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
-                .WithDescription(T("Commands.Slogger.IncludeUnderwaterStructures.Description"))
+                .WithDescription(T("IncludeUnderwaterStructures.Description"))
                 .HandleWith(IncludeUnderwaterStructures)
             .EndSubCommand();
 
@@ -81,7 +80,7 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
             .BeginSubCommand("underground")
                 .WithAlias("ug")
                 .WithArgs(sapi.ChatCommands.Parsers.Bool("include", trueAlias: "on"))
-                .WithDescription(T("Commands.Slogger.IncludeUndergroundStructures.Description"))
+                .WithDescription(T("IncludeUndergroundStructures.Description"))
                 .HandleWith(IncludeUndergroundStructures)
             .EndSubCommand();
     }
@@ -93,14 +92,14 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     /// <returns>A success or error result, depending on the availability of settings.</returns>
     private TextCommandResult OnSloggerCommand(TextCommandCallingArgs args)
     {
-        if (_settings is null) return TextCommandResult.Error(T("Commands.Slogger.Error"));
+        if (_settings is null) return TextCommandResult.Error(T("Error"));
 
         var message = new StringBuilder()
-            .AppendLine(T("Commands.Slogger.IncludeVanillaResults.Value", _settings.IncludeVanillaResults))
-            .AppendLine(T("Commands.Slogger.IncludeSurfaceRuins.Value", _settings.IncludeSurfaceRuins))
-            .AppendLine(T("Commands.Slogger.IncludeSurfaceStructures.Value", _settings.IncludeSurfaceStructures))
-            .AppendLine(T("Commands.Slogger.IncludeUnderwaterStructures.Value", _settings.IncludeUnderwaterStructures))
-            .AppendLine(T("Commands.Slogger.IncludeUndergroundStructures.Value", _settings.IncludeUndergroundStructures))
+            .AppendLine(T("IncludeVanillaResults.Value", _settings.IncludeVanillaResults))
+            .AppendLine(T("IncludeSurfaceRuins.Value", _settings.IncludeSurfaceRuins))
+            .AppendLine(T("IncludeSurfaceStructures.Value", _settings.IncludeSurfaceStructures))
+            .AppendLine(T("IncludeUnderwaterStructures.Value", _settings.IncludeUnderwaterStructures))
+            .AppendLine(T("IncludeUndergroundStructures.Value", _settings.IncludeUndergroundStructures))
             .ToString();
 
         return TextCommandResult.Success(message);
@@ -113,10 +112,10 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     /// <returns>A result indicating whether the setting was updated successfully, or an error if settings are unavailable.</returns>
     private TextCommandResult IncludeVanillaResults(TextCommandCallingArgs args)
     {
-        if (_settings is null) return TextCommandResult.Error(T("Commands.Slogger.Error"));
+        if (_settings is null) return TextCommandResult.Error(T("Error"));
         var include = args.Parsers[0].GetValue().To<bool>();
         _settings.IncludeVanillaResults = include;
-        return TextCommandResult.Success(T("Commands.Slogger.IncludeVanillaResults.Value", _settings.IncludeVanillaResults));
+        return TextCommandResult.Success(T("IncludeVanillaResults.Value", _settings.IncludeVanillaResults));
     }
 
     /// <summary>
@@ -126,10 +125,10 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     /// <returns>A result indicating whether the setting was updated successfully, or an error if settings are unavailable.</returns>
     private TextCommandResult IncludeSurfaceRuins(TextCommandCallingArgs args)
     {
-        if (_settings is null) return TextCommandResult.Error(T("Commands.Slogger.Error"));
+        if (_settings is null) return TextCommandResult.Error(T("Error"));
         var include = args.Parsers[0].GetValue().To<bool>();
         _settings.IncludeSurfaceRuins = include;
-        return TextCommandResult.Success(T("Commands.Slogger.IncludeSurfaceRuins.Value", _settings.IncludeSurfaceRuins));
+        return TextCommandResult.Success(T("IncludeSurfaceRuins.Value", _settings.IncludeSurfaceRuins));
     }
 
     /// <summary>
@@ -139,10 +138,10 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     /// <returns>A result indicating whether the setting was updated successfully, or an error if settings are unavailable.</returns>
     private TextCommandResult IncludeSurfaceStructures(TextCommandCallingArgs args)
     {
-        if (_settings is null) return TextCommandResult.Error(T("Commands.Slogger.Error"));
+        if (_settings is null) return TextCommandResult.Error(T("Error"));
         var include = args.Parsers[0].GetValue().To<bool>();
         _settings.IncludeSurfaceStructures = include;
-        return TextCommandResult.Success(T("Commands.Slogger.IncludeSurfaceStructures.Value", _settings.IncludeSurfaceStructures));
+        return TextCommandResult.Success(T("IncludeSurfaceStructures.Value", _settings.IncludeSurfaceStructures));
     }
 
     /// <summary>
@@ -152,10 +151,10 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     /// <returns>A result indicating whether the setting was updated successfully, or an error if settings are unavailable.</returns>
     private TextCommandResult IncludeUnderwaterStructures(TextCommandCallingArgs args)
     {
-        if (_settings is null) return TextCommandResult.Error(T("Commands.Slogger.Error"));
+        if (_settings is null) return TextCommandResult.Error(T("Error"));
         var include = args.Parsers[0].GetValue().To<bool>();
         _settings.IncludeUnderwaterStructures = include;
-        return TextCommandResult.Success(T("Commands.Slogger.IncludeUnderwaterStructures.Value", _settings.IncludeUnderwaterStructures));
+        return TextCommandResult.Success(T("IncludeUnderwaterStructures.Value", _settings.IncludeUnderwaterStructures));
     }
 
     /// <summary>
@@ -165,10 +164,10 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     /// <returns>A result indicating whether the setting was updated successfully, or an error if settings are unavailable.</returns>
     private TextCommandResult IncludeUndergroundStructures(TextCommandCallingArgs args)
     {
-        if (_settings is null) return TextCommandResult.Error(T("Commands.Slogger.Error"));
+        if (_settings is null) return TextCommandResult.Error(T("Error"));
         var include = args.Parsers[0].GetValue().To<bool>();
         _settings.IncludeUndergroundStructures = include;
-        return TextCommandResult.Success(T("Commands.Slogger.IncludeUndergroundStructures.Value", _settings.IncludeUndergroundStructures));
+        return TextCommandResult.Success(T("IncludeUndergroundStructures.Value", _settings.IncludeUndergroundStructures));
     }
 
     /// <summary>
@@ -177,6 +176,21 @@ public class LogStructures : ServerModSystem, IServerServiceRegistrar
     /// <param name="path">The key path to the localised string within the feature's language resource file.</param>
     /// <param name="args">Optional arguments to format into the resulting string, if placeholders exist.</param>
     /// <returns>The formatted, localised string associated with the specified path.</returns>
-    public static string T(string path, params object[] args)
-        => LangEx.FeatureString(nameof(LogStructures), path, args);
+    private static string T(string path, params object[] args)
+        => path switch
+        {
+            "Description" => "Better Ruins Structure Logger",
+            "Error" => "Structure Logger Settings not found.",
+            "IncludeVanillaResults.Description" => "Include vanilla structures that can quickly add millions of lines to the log file.",
+            "IncludeVanillaResults.Value" => $"Include Vanilla Results: {args[0]}",
+            "IncludeSurfaceRuins.Description" => "Include ruins generated on the surface.",
+            "IncludeSurfaceRuins.Value" => $"Include Surface Ruins: {args[0]}",
+            "IncludeSurfaceStructures.Description" => "Include structures generated on the surface.",
+            "IncludeSurfaceStructures.Value" => $"Include Surface Structures: {args[0]}",
+            "IncludeUnderwaterStructures.Description" => "Include structures generated underwater.",
+            "IncludeUnderwaterStructures.Value" => $"Include Underwater Structures: {args[0]}",
+            "IncludeUndergroundStructures.Description" => "Include structures generated underground.",
+            "IncludeUndergroundStructures.Value" => $"Include Underground Structures: {args[0]}",
+            _ => path
+        };
 }

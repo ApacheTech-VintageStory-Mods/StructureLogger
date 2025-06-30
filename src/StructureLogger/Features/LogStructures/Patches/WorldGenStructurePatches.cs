@@ -2,7 +2,6 @@ using ApacheTech.VintageMods.StructureLogger.Features.LogStructures.Settings;
 using Gantry.Services.FileSystem.Configuration.Consumers;
 using Vintagestory.API.MathTools;
 using Vintagestory.ServerMods;
-using static ApacheTech.VintageMods.StructureLogger.Features.LogStructures.Systems.LogStructures;
 
 namespace ApacheTech.VintageMods.StructureLogger.Features.LogStructures.Patches;
 
@@ -11,7 +10,7 @@ namespace ApacheTech.VintageMods.StructureLogger.Features.LogStructures.Patches;
 ///     <see cref="WorldGenStructure" /> class, restricted to those originating from BetterRuins.
 /// </summary>
 [HarmonyServerSidePatch]
-public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSetttings>
+public class WorldGenStructurePatches : GlobalSettingsConsumer<LogStructuresSetttings>
 {
     /// <summary>
     ///     Logs when a ruin is successfully generated on the surface.
@@ -29,7 +28,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         if (Settings?.IncludeSurfaceRuins != true) return;
 
         Log(
-            messagePrefix: T("Logs.SurfaceRuin"),
+            structureType: "surface ruin",
             api: worldForCollectibleResolve.Api,
             schematic: ___LastPlacedSchematic,
             location: ___LastPlacedSchematicLocation);
@@ -51,7 +50,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         if (Settings?.IncludeSurfaceStructures != true) return;
 
         Log(
-            messagePrefix: T("Logs.SurfaceStructure"),
+            structureType: "surface structure",
             api: worldForCollectibleResolve.Api,
             schematic: ___LastPlacedSchematic,
             location: ___LastPlacedSchematicLocation);
@@ -73,7 +72,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         if (Settings?.IncludeUnderwaterStructures != true) return;
 
         Log(
-            messagePrefix: T("Logs.UnderwaterStructure"),
+            structureType: "underwater structure",
             api: worldForCollectibleResolve.Api,
             schematic: ___LastPlacedSchematic,
             location: ___LastPlacedSchematicLocation);
@@ -95,7 +94,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
         if (Settings?.IncludeUndergroundStructures != true) return;
 
         Log(
-            messagePrefix: T("Logs.UndergroundStructure"),
+            structureType: "underground structure",
             api: worldForCollectibleResolve.Api,
             schematic: ___LastPlacedSchematic,
             location: ___LastPlacedSchematicLocation);
@@ -105,11 +104,11 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
     ///     Logs the generation of a structure if it meets configured logging conditions, such as being part of the BetterRuins mod,
     ///     or bypassing the filter if disabled.
     /// </summary>
-    /// <param name="messagePrefix">The prefix to prepend to the log message, indicating the context of the generation.</param>
+    /// <param name="structureType">The type of structure being generated.</param>
     /// <param name="api">The core API used to access assets, logging, and mod configuration.</param>
     /// <param name="schematic">The schematic structure that was placed during world generation.</param>
     /// <param name="location">The bounding box representing the location where the schematic was placed.</param>
-    private static void Log(string messagePrefix, ICoreAPI api, BlockSchematicStructure schematic, Cuboidi location)
+    private static void Log(string structureType, ICoreAPI api, BlockSchematicStructure schematic, Cuboidi location)
     {
         var fileName = schematic.FromFileName;
 
@@ -118,7 +117,7 @@ public class WorldGenStructurePatches : WorldSettingsConsumer<LogStructuresSettt
 
         if (Settings?.IncludeVanillaResults != true && !asset.Origin.OriginPath.Contains("BetterRuins")) return;
 
-        var message = $"[BetterRuins] {messagePrefix} - File: {assetLocation.ToShortString()} - Location: {location}";
+        var message = $"[BetterRuins] Generating {structureType} - File: {assetLocation.ToShortString()} - Location: {location}";
         api.Logger.Audit(message);
     }
 }
